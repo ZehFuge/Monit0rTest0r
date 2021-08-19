@@ -1,4 +1,4 @@
-# Monitor Tester
+# Monit0rTest0r
 Wird genutzt, um Monitore auf Funktion zu überprüfen.
 
 # Version 1.0
