@@ -5,7 +5,7 @@ Wird genutzt, um Monitore auf Funktion zu überprüfen.
 - Linksklick - Farbpalette öffnen / Farbe auswählen
 - Rechtsklick - Farbe aus Preset entfernen
 - Mausradklick - Farbpalette ausblenden
-- 0   - Shuffle beenden
+- ^   - Shuffle beenden
 - 1   - Default Shufflemodus
 - 2   - Preset Shufflemodus
 - A   - Lautsprechertest links
