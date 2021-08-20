@@ -2,10 +2,11 @@
 Wird genutzt, um Monitore auf Funktion zu überprüfen.
 
 # Tastenkürzel
+- I   - Informationen ein/ausblenden
 - Linksklick - Farbpalette öffnen / Farbe auswählen
 - Rechtsklick - Farbe aus Preset entfernen
 - Mausradklick - Farbpalette ausblenden
-- ^   - Shuffle beenden
+- 0   - Shuffle beenden
 - 1   - Default Shufflemodus
 - 2   - Preset Shufflemodus
 - A   - Lautsprechertest links
@@ -13,7 +14,8 @@ Wird genutzt, um Monitore auf Funktion zu überprüfen.
 - ESC - Programm beenden
 
 # To-Do
-- Tutorial überarbeiten (Shuffle0 = ^ Taste, nicht 0)
+- Shuffle Intervall mit Mausrad rauf verlängern (max. 10 Sek.)
+- Shuffle Intervall mit Mausrad runter verkürzen (max. 1 Sek.)
 
 # Version 1.1
 - Der Erklärungstext ändert seine Farbe auf weiß, sobald der Hintergrund zu dunkel zum lesen ist
