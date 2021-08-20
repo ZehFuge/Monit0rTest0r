@@ -10,7 +10,7 @@ onready var Explanation = load("res://MonitorTestErklärung.tscn")
 var BrightnessBoundary = 0.6 # if below, text will be displayed as white
 
 var ShuffleMode = 0 # 0 = shuffle off
-var DefaultShuffleArray = [Color(255, 0, 0), Color(0, 255, 0), Color(0, 0, 255)]
+var DefaultShuffleArray = [Color(0, 0, 0), Color(255, 0, 0), Color(0, 255, 0), Color(0, 0, 255), Color(255, 255, 0), Color(0, 255, 255), Color(255, 255, 255)]
 var ColorShuffleArray = [] # saves color presets
 var ShuffleIterator = 0 # used to shuffle through ColorShuffleArray
 var ShuffleTimer = "done" # done & running
