@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://MonitorTestErklärung.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Monit0rTest0r.gd" type="Script" id=3]
+[ext_resource path="res://sounds/Mario-coin-sound.mp3" type="AudioStream" id=4]
+[ext_resource path="res://ColorRect.gd" type="Script" id=5]
+
+[node name="Monit0rTest0r" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorPicker" type="ColorPicker" parent="."]
+visible = false
+margin_left = 494.0
+margin_top = 224.0
+margin_right = 802.0
+margin_bottom = 686.0
+rect_scale = Vector2( 0.75, 0.75 )
+color = Color( 0.300781, 0.132767, 0.132767, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+position = Vector2( 1350, 180 )
+stream = ExtResource( 4 )
+
+[node name="MonitorTestErklärung" parent="." instance=ExtResource( 1 )]
+position = Vector2( 320, 180 )
+
+[node name="ShuffleTimer" type="Timer" parent="."]
+one_shot = true
+
+[connection signal="color_changed" from="ColorPicker" to="." method="_on_ColorPicker_color_changed"]
+[connection signal="preset_added" from="ColorPicker" to="." method="_on_ColorPicker_preset_added"]
+[connection signal="preset_removed" from="ColorPicker" to="." method="_on_ColorPicker_preset_removed"]
+[connection signal="timeout" from="ShuffleTimer" to="." method="_on_ShuffleTimer_timeout"]
