@@ -13,3 +13,4 @@ Wird genutzt, um Monitore auf Funktion zu überprüfen.
 - Shuffle0 = beendet den Shuffle Modus
 - Shuffle1 = Shufflet das default Preset
 - Shuffle2 = Shufflet das eigene Preset
+- Wenn kein eigenes Preset erstellt und Shuffle2 gestartet wurde, wird eine Fehlermeldung ausgegeben und Shuffle1 gestartet
