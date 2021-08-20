@@ -16,6 +16,7 @@ Wird genutzt, um Monitore auf Funktion zu überprüfen.
 # To-Do
 - Shuffle Intervall mit Mausrad rauf verlängern (max. 10 Sek.)
 - Shuffle Intervall mit Mausrad runter verkürzen (max. 1 Sek.)
+- Farbpalette mit Mausradklick ein- & ausblenden
 
 # Version 1.1
 - Der Erklärungstext ändert seine Farbe auf weiß, sobald der Hintergrund zu dunkel zum lesen ist
