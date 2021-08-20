@@ -8,7 +8,7 @@ Wird genutzt, um Monitore auf Funktion zu überprüfen.
 - der Erklärungstext lässt sich mit der I Taste ein- und ausblenden
 
 # Ideen für Version 1.1
-- Webcam soll parallel eingeschaltet werden
+- Webcam soll parallel eingeschaltet werden (mit Godot 3.3 nicht möglich)
 - Testmodi sollen hinzugefügt werden (z.B. Farb-Shuffle)
 
 # Version 1.1
