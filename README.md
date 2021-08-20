@@ -12,6 +12,9 @@ Wird genutzt, um Monitore auf Funktion zu überprüfen.
 - D   - Lautsprechertest rechts
 - ESC - Programm beenden
 
+# To-Do
+- Tutorial überarbeiten (Shuffle0 = ^ Taste, nicht 0)
+
 # Version 1.1
 - Der Erklärungstext ändert seine Farbe auf weiß, sobald der Hintergrund zu dunkel zum lesen ist
 - Shuffle Modes wurden implementiert
