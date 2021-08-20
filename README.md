@@ -7,9 +7,9 @@ Wird genutzt, um Monitore auf Funktion zu überprüfen.
 - Soundtest über die Tasten A (linker Lautsprecher) und D (rechter Lautsprecher) möglich
 - der Erklärungstext lässt sich mit der I Taste ein- und ausblenden
 
-# Ideen für Version 1.1
-- Webcam soll parallel eingeschaltet werden (mit Godot 3.3 nicht möglich)
-- Testmodi sollen hinzugefügt werden (z.B. Farb-Shuffle)
-
 # Version 1.1
 - Der Erklärungstext ändert seine Farbe auf weiß, sobald der Hintergrund zu dunkel zum lesen ist
+- Shuffle Modes wurden implementiert
+- Shuffle0 = beendet den Shuffle Modus
+- Shuffle1 = Shufflet das default Preset
+- Shuffle2 = Shufflet das eigene Preset
